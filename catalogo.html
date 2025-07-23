@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arte Ilustrac - Catálogo</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fffdf8; color: #333; }
+    header { background: #f76c6c; color: white; padding: 1em; text-align: center; }
+    nav { background: #333; display: flex; justify-content: center; gap: 1em; padding: 1em; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 900px; margin: 2em auto; padding: 0 1em; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5em; }
+    .producto { background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 1em; border: 1px solid #ddd; transition: transform 0.2s; }
+    .producto:hover { transform: scale(1.02); }
+    .producto h3 { color: #f76c6c; margin-top: 0; }
+    .producto strong { font-size: 1.1em; }
+    footer { text-align: center; padding: 2em 1em; background: #333; color: white; margin-top: 3em; }
+  </style>
+</head>
+<body>
+  <header><h1>Catálogo</h1></header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobremi.html">Sobre mí</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <main>
+    <div class="producto">
+      <h3>Ilustración personalizada</h3>
+      <p>Retrato digital en estilo artístico, ideal para regalos únicos.</p>
+      <strong>$25.00</strong>
+    </div>
+    <div class="producto">
+      <h3>Pack de stickers</h3>
+      <p>Set de 10 stickers ilustrados a mano, envío incluido.</p>
+      <strong>$12.00</strong>
+    </div>
+    <div class="producto">
+      <h3>Lámina A4 enmarcada</h3>
+      <p>Ilustración original impresa en alta calidad, con marco.</p>
+      <strong>$30.00</strong>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Arte Ilustrac</p>
+  </footer>
+</body>
+</html>
